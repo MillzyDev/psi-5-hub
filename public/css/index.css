@@ -9,11 +9,44 @@ html {
     margin: auto;
 }
 
+.top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
 .logo-header {
     display: flex;
     align-items: center;
     margin-top: 12px;
-    padding-top: 50px;
+    padding-top: 25px;
+}
+
+.topbar {
+    float: right;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.topbar a {
+    float: left;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 60px;
+    text-decoration: none;
+    font-size: 27px;
+    color: black;
+}
+
+.topbar a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+.topbar a.selected {
+    text-decoration: underline;
+    color: black;
 }
 
 #large-logo {

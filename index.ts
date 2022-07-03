@@ -11,7 +11,7 @@ const port = process.env.PORT;
 app.use(express.static(path.join(__dirname, "public")));
 
 app.get("/", (req: Request, res: Response) => {
-    res.send('Yo Millzy, you got the funni PSI-5 server up');
+    res.sendFile(path.join(__dirname, "public/views/index.html"));
 });
 
 console.info("Initialising Pavlov.aic");

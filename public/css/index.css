@@ -1,0 +1,26 @@
+html {
+    font-family: "Orbitron";
+}
+
+.page-content {
+    display: block;
+    max-width: 90%;
+    transform: .5s ease-in-out .1s;
+    margin: auto;
+}
+
+.logo-header {
+    display: flex;
+    align-items: center;
+    margin-top: 12px;
+    padding-top: 50px;
+}
+
+#large-logo {
+    position: absolute;
+    margin-left: -4%;
+}
+
+.logobox {
+    margin-left: 110px;
+}

@@ -1,0 +1,21 @@
+.about {
+    background-color: aliceblue;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: black 5px 5px;
+    margin-top: 50px;
+}
+
+.slogan {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-style: italic;
+}
+
+.about p {
+    font-size: 24px;
+}

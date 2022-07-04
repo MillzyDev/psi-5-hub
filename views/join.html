@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>PSI-5 Hub</title>
+        <title>Join - PSI-5 Hub</title>
 
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="The Hub for Site-65's psychology research devision, PSI-5.">
@@ -12,9 +12,11 @@
 
         <link rel="stylesheet" href="/css/fonts.css">
         <link rel="stylesheet" href="/css/index.css">
-        <link rel="stylesheet" href="/css/images.css">
+        <link rel="stylesheet" href="/css/join.css">
 
         <link rel="icon" href="/img/psi-5.png">
+
+        <script src="/js/join.js"></script>
     </head>
     <body>
         <div class="page-content">
@@ -34,6 +36,64 @@
                     <a href="/about">About</a>
                     <a class="selected" href="/join">Join</a>
                 </div>
+            </div>
+            <div class="application">
+                <div class="box">
+                    <h1 class="title">Application - Join PSI-5</h1>
+                    <p class="main">PSI-5 applications are forwarded to the rest of PSI-5 by Pavlov.aic.</p>
+                    <p class="main">Answer all questions; there are no "requirements" to join PSI-5 other than that you must hold the position of at least Sr. Researcher.</p>
+                    <p class="main">This form allows us to understand how committed you are to joining PSI-5.</p>
+                    <p class="main"><strong>*Spam submitting applications will result in a blacklist from PSI-5*</strong></p>
+                </div>
+                <form>
+                    <div class="box">
+                        <label>What is your RP name?</label>
+                        <br>
+                        <textarea maxlength="1024" name="name" required="true" rows="1" placeholder="E.g. 'Millzy'"></textarea>
+                    </div>
+                    <div class="box">
+                        <label>What is your SteamID?</label>
+                        <br>
+                        <textarea maxlength="1024" name="steamID" required="true" rows="1" placeholder="E.g. STEAM_0:1:21754821"></textarea>
+                    </div>
+                    <div class="box">
+                        <label>What is your Discord handle?</label>
+                        <br>
+                        <textarea maxlength="1024" name="discord" required="true" rows="1" placeholder="E.g. Millzy#0292"></textarea>
+                    </div>
+                    <div class="box">
+                        <label>Why do you want to join PSI-5?</label>
+                        <br>
+                        <textarea maxlength="1024" name="reason" required="true" rows="6" placeholder="I want to join PSI-5 because..."></textarea>
+                    </div>
+                    <div class="box">
+                        <label>Why should you be allowed to join PSI-5?</label>
+                        <br>
+                        <textarea maxlength="1024" name="pros" required="true" rows="6" placeholder="I should be allowed to join PSI-5 because..."></textarea>
+                    </div>
+                    <div class="box">
+                        <label>What are some "cons" you would describe yourself to have?</label>
+                        <p>Don't describe your "cons" like they're a good thing. E.g. Don't say "I'm too hard working" or something along those lines.</p>
+                        <br>
+                        <textarea name="cons" maxlength="1024" required="true" rows="6" placeholder="E.g. I am slightly anxious when trying new things."></textarea>
+                    </div>
+                    <div class="box">
+                        <label>List at least 3 of PSI-5's primary SCPs for study.</label>
+                        <br>
+                        <textarea maxlength="1024" name="scps" required="true" rows="2" placeholder="SCP-XXX1, SCP-XXX2...etc."></textarea>
+                    </div>
+                    <div class="box">
+                        <label>Do you have a Medical License? (on the server)</label>
+                        <br>
+                        <br> 
+                        <input name="medLicense" type="radio" value="true">
+                        <label>Yes</label>
+                        <br>   
+                        <input name="medLicense" type="radio" value="false">
+                        <Label>No</Label>
+                    </div>
+                    <button class="submit-button">Submit Application</button>
+                </form>
             </div>
         </div>
     </body>

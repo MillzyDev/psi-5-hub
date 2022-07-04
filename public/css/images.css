@@ -1,4 +1,5 @@
 .images {
+    margin: 10px;
     display: flex;
     justify-content: center;
 }
@@ -58,4 +59,18 @@
     -webkit-animation-delay: -4s;
     animation-delay: -4s;
     background-color: white;
+}
+
+.slogan {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    padding: 200px;
+}
+
+.slogan p {
+    color: whitesmoke;
+    font-size: 24px;
+    text-decoration: underline;
+    font-weight: bold;
 }
